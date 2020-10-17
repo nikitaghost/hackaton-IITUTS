@@ -1,0 +1,58 @@
+[33mcommit 00a3cbc37ba80fc384e29ea403a481b198464a5f[m[33m ([m[1;36mHEAD -> [m[1;32m2-[m[33m, [m[1;31morigin/2-[m[33m)[m
+Author: Nikita Ghost <nekhd@yandex.ru>
+Date:   Fri Oct 16 23:08:44 2020 +0300
+
+    Work on MainActivity
+
+[33mcommit 1ed553afe1c889dae44c91078b5069c88c4332b4[m[33m ([m[1;31morigin/3-create-splash-screen[m[33m, [m[1;31morigin/1-[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Nikita Ghost <nekhd@yandex.ru>
+Date:   Tue Oct 13 22:18:04 2020 +0300
+
+    Add button
+
+[33mcommit 789bc635198e6b179774a9551e0323112b77edff[m
+Merge: 0b96a5b 1b026b4
+Author: Nikita Ghost <nekhd@yandex.ru>
+Date:   Tue Oct 13 19:08:48 2020 +0000
+
+    Merge branch 'test' into 'master'
+    
+    Test
+    
+    See merge request nikitaghost/hacaton-2020-SEVGU!2
+
+[33mcommit 0b96a5bd1c47e79d0803a52e7f96abbd7dd826e3[m
+Author: Shirma Artem <shirma.artem@list.ru>
+Date:   Tue Oct 13 22:04:56 2020 +0300
+
+    Layout Issue
+
+[33mcommit 1b026b450f0f598e2525d3040d7e8fbd9dafaceb[m
+Author: Nikita Ghost <nekhd@yandex.ru>
+Date:   Tue Oct 13 21:19:40 2020 +0300
+
+    update gitignore
+
+[33mcommit a77020a8e4febd118ae97e3a60109338f504bb26[m[33m ([m[1;31morigin/dev[m[33m)[m
+Author: Shirma Artem <shirma.artem@list.ru>
+Date:   Tue Oct 13 20:44:37 2020 +0300
+
+    Intial Commit
+
+[33mcommit 3736a227e94b504a37ac257e3c79d96f37ba6d32[m
+Author: Nikita Ghost <nekhd@yandex.ru>
+Date:   Tue Oct 13 08:31:10 2020 +0000
+
+    Update .gitignore
+
+[33mcommit b90546a6d86ab67c5f8f62eccf433385fbfd990d[m
+Author: Nikita Ghost <nekhd@yandex.ru>
+Date:   Tue Oct 13 11:28:02 2020 +0300
+
+    add Android project
+
+[33mcommit 192507ad73efdab9b504385216cb6a4151c936f1[m
+Author: Nikita Ghost <nekhd@yandex.ru>
+Date:   Tue Oct 13 11:22:39 2020 +0300
+
+    add README

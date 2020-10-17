@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Hacaton 2020-app.iml" filepath="$PROJECT_DIR$/.idea/modules/Hacaton 2020-app.iml" group="Hacaton 2020/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/245729381/Hacaton_2020.iml" filepath="$PROJECT_DIR$/.idea/modules/245729381/Hacaton_2020.iml" group="Hacaton_2020" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="Hacaton 2020/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/245729381/hacaton-2020-SEVGU-Hacaton_2020.iml" filepath="$PROJECT_DIR$/.idea/modules/245729381/hacaton-2020-SEVGU-Hacaton_2020.iml" group="Hacaton_2020" />
+    </modules>
+  </component>
+</project>

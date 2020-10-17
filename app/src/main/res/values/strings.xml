@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Hacaton 2020</string>
+    <string name="jobList">Мои задания</string>
+    <string name="textViewChooseTask">Выберите задание из списка</string>
+    <string name="logout">Выйти</string>
+    <string name="login">Имя</string>
+    <string name="password">Пароль</string>
+    <string name="numberOfSupports">Номер опоры</string>
+    <string name="defect">Описание дефекта</string>
+    <string name="deadline">Дедлайн</string>
+    <string name="task">Распоряжение №1</string>
+
+</resources>
