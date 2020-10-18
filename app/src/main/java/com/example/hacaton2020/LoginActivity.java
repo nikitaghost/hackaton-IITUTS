@@ -3,6 +3,7 @@ package com.example.hacaton2020;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -38,8 +39,10 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        User user = new User("Иванов", "Иван", "Иванович","test","test");
-        User user2 = new User("Иванов", "Иван", "Иванович","test1","test");
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
+        User user = new User("Иванов", "Иван", "Иванович","login","password");
+        User user2 = new User("Иванов", "Иван", "Иванович","test","test");
         User user3 = new User("Иванов", "Иван", "Иванович","test2","test");
 
         List<User> userList = new ArrayList<>();

@@ -1,23 +1,15 @@
 package com.example.hacaton2020;
-
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.annotation.SuppressLint;
-import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Parcelable;
-import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
-
 import com.example.hacaton2020.Entity.InspectionSheet;
 import com.example.hacaton2020.Entity.InspectionSheets;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -26,10 +18,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.GregorianCalendar;
 import java.util.List;
-import java.util.concurrent.ExecutionException;
-import java.util.zip.Inflater;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         mainLinearLayout = (LinearLayout) findViewById(R.id.mainLinearLayout);
 
@@ -70,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             buttons[i].setMaxWidth(100);
             buttons[i].setMinHeight(10);
             buttons[i].setTextSize(20);
-            buttons[i].setTextAlignment(2);
+            buttons[i].setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
             final int finalI = inspectionSheets.getInspectionSheets().get(i).getId();
             buttons[i].setOnClickListener(new View.OnClickListener() {
                 @Override

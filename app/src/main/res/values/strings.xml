@@ -9,6 +9,12 @@
     <string name="numberOfSupports">Номер опоры</string>
     <string name="defect">Описание дефекта</string>
     <string name="deadline">Дедлайн</string>
-    <string name="task">Распоряжение №1</string>
+    <string name="task">Распоряжение</string>
+
+    <string-array name="defectSpinner">
+        <item>Повреждение изоляции</item>
+        <item>Неисправное электропитание</item>
+        <item>Ослабление прочности деталей</item>
+    </string-array>
 
 </resources>

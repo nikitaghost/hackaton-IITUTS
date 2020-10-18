@@ -3,16 +3,19 @@ package com.example.hacaton2020;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Parcelable;
+import android.provider.MediaStore;
 import android.view.View;
 
 import com.example.hacaton2020.Entity.InspectionSheet;
 import com.example.hacaton2020.Entity.InspectionSheets;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -24,17 +27,30 @@ import java.util.List;
 
 public class FormActivity extends AppCompatActivity {
 
+    File directory;
+
+    final int REQUEST_CODE_PHOTO = 1;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 
-    public void goToMap(View view) {
-        String cords = "33.644809%2C44.591120";
+    public void onSend(View view) {
 
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(String.format("https://yandex.ru/maps/959/sevastopol/?ll=%s&z=16",getIntent().getStringExtra("cords"))));
+        Intent intent = new Intent (this, MainActivity.class);
         startActivity(intent);
+
+    }
+
+    public void goToCam(View view) {
+
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        startActivity(intent);
+
     }
 
     private static class GetTask extends AsyncTask<String, Void, String> {
